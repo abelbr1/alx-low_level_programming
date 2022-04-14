@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * _isupper - Check if paramter c represents a digit.
- * @c: Int representing a digit
- * Return: Always 0.
+ * _isdigit - Check if paramter c represents a digit.
+ * @c: Int representing an ascii character
+ * Return: Return 1 if it is a digit otherwise return 0.
  */
 int _isdigit(int c)
 {
