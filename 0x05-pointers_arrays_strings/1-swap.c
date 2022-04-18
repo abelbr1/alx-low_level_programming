@@ -1,16 +1,14 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * main - check the code
- *
- * Return: Always 0.
- */
+ * swap_int - swap variable values
+ * @a: pointer 1
+ * @b: pointer 2
+ * Return: void
+*/
+
 void swap_int(int *a, int *b)
 {
-	int c;
-
-	c = *a;
-	*a = *b;
-	*b = c;
+*a += *b;
+*b = *a - *b;
+*a = *a - *b;
 }
