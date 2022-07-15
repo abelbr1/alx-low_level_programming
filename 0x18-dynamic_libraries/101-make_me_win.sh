@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc *.o -fPIC -shared -o libruin.so
-LD_PRELOAD=$WPD/libruin.so
+gcc *.o -fPIC -shared -o libdynamic.so
+LD_PRELOAD=$WPD/libdynamic.so
